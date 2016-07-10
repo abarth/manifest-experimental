@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <localimport file="magenta"/>
+    <localimport file="minimal"/>
+  </imports>
+  <projects>
+    <project name="fortune"
+             remote="https://fuchsia.googlesource.com/fortune"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             githooks="manifest/git-hooks"
+             path="src/fortune"/>
+    <project name="third_party/gtest"
+             remote="https://fuchsia.googlesource.com/third_party/gtest"
+             remotebranch="fuchsia"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             githooks="manifest/git-hooks"
+             path="src/third_party/gtest"/>
+  </projects>
+</manifest>
