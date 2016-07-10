@@ -5,6 +5,9 @@
     <localimport file="minimal"/>
   </imports>
   <projects>
+    <project name="external/github.com/abarth/fx"
+             remote="https://github.com/abarth/fx.git"
+             path="src"/>
     <project name="escher"
              remote="https://fuchsia.googlesource.com/escher"
              gerrithost="https://fuchsia-review.googlesource.com"
