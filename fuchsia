@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <localimport file="magenta"/>
+    <localimport file="minimal"/>
+  </imports>
+  <projects>
+    <project name="escher"
+             remote="https://fuchsia.googlesource.com/escher"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             githooks="manifest/git-hooks"
+             path="src/escher"/>
+    <project name="fortune"
+             remote="https://fuchsia.googlesource.com/fortune"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             githooks="manifest/git-hooks"
+             path="src/fortune"/>
+    <project name="external/github.com/g-truc/glm"
+             remote="https://chromium.googlesource.com/external/github.com/g-truc/glm"
+             path="src/third_party/glm"
+             revision="3b1af3fe0b6c9b071dcb5a557b493980bd23c6e4"/>
+    <project name="third_party/gtest"
+             remote="https://fuchsia.googlesource.com/third_party/gtest"
+             remotebranch="fuchsia"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             githooks="manifest/git-hooks"
+             path="src/third_party/gtest"/>
+  </projects>
+</manifest>
